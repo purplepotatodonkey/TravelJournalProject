@@ -15,8 +15,8 @@ function App() {
 
   return (
     <>
-      <h1>Working</h1>
-      {cards}
+      <Navbar />
+      <section className="cards-list">{cards}</section>
     </>
   )
 }
